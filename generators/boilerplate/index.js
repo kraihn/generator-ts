@@ -28,7 +28,8 @@ module.exports = class extends Generator {
         typescript: '^2.5.3'
       },
       scripts: {
-        build: 'tsc'
+        build: 'tsc',
+        watch: 'tsc -w'
       }
     });
 

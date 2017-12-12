@@ -26,7 +26,8 @@ module.exports = class extends Generator {
       },
       scripts: {
         pretest: 'tslint',
-        precommit: rootPkg.scripts.precommit
+        precommit: rootPkg.scripts.precommit,
+        lint: 'tslint'
       }
     };
 

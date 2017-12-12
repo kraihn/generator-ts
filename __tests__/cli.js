@@ -9,6 +9,6 @@ describe('generator-ts:cli', () => {
   });
 
   it('creates files', () => {
-    assert.file(['lib/cli.js']);
+    assert.file(['bin/cli.js']);
   });
 });

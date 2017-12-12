@@ -42,6 +42,10 @@ module.exports = class extends Generator {
       this.destinationPath(this.options.generateInto, '.gitignore')
     );
     this.fs.copy(
+      this.templatePath('env.example'),
+      this.destinationPath(this.options.generateInto, '.env.example')
+    );
+    this.fs.copy(
       this.templatePath('index.ts'),
       this.destinationPath(this.options.generateInto, 'src/index.ts')
     );

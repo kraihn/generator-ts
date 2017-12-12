@@ -190,7 +190,7 @@ module.exports = class extends Generator {
           email: this.props.authorEmail,
           url: this.props.authorUrl
         },
-        files: [this.options.projectRoot],
+        files: ['dist', 'bin'],
         keywords: [],
         devDependencies: {}
       },

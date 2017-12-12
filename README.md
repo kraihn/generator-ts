@@ -1,19 +1,24 @@
 # generator-ts [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> 
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-ts using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and @kraihn/generator-ts using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
 npm install -g @kraihn/generator-ts
 ```
 
-Then generate your new project:
+Then generate your library new project:
 
 ```bash
 yo @kraihn/ts
+```
+
+Or generate your new CLI project:
+
+```bash
+yo @kraihn/ts --cli
 ```
 
 ## Getting To Know Yeoman
